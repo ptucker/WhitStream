@@ -1,0 +1,15 @@
+The Operators:
+	Unary
+		Select: Name, Predicate
+		Project: Name, Attributes
+		Duplicate Elimination: Name, Attributes
+		GroupBy: Name, GroupBy Types, Attributes to Group On, Attributes to Type
+		Sort: Name, Attributes to Sort On
+	Binary
+		Join: Name, Predicate, Attributes
+		Intersect: Name
+		Union: Name
+		Difference: Name
+Streams:
+	Input Stream: Name, Ports List
+	Output Stream: Name

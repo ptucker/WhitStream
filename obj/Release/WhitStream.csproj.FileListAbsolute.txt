@@ -1,0 +1,11 @@
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Release\WhitStream.XML
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Release\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\WhitStream.Admin.AdminForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\WhitStream.csproj.GenerateResource.Cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\WhitStream.dll
+\\fs1\Homedrives\ptucker\Research\WhitStream\bin\Release\WhitStream.XML
+\\fs1\Homedrives\ptucker\Research\WhitStream\bin\Release\WhitStream.dll
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Release\WhitStream.Admin.AdminForm.resources
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Release\WhitStream.csproj.GenerateResource.Cache
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Release\WhitStream.dll

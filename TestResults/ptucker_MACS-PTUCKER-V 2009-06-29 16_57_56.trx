@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a19ddba2-201b-463d-8921-1ed4136ea874" name="ptucker@MACS-PTUCKER-V 2009-06-29 16:57:56" runUser="ADMIN\ptucker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0e641d25-d9ae-4874-8ea8-6e3f51b950e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="ptucker_MACS-PTUCKER-V 2009-06-29 16_57_56">
+      <DeploymentItem filename="C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-06-29T16:57:56.6104609-07:00" queuing="2009-06-29T16:57:57.4315430-07:00" start="2009-06-29T16:57:57.6185617-07:00" finish="2009-06-29T17:00:31.3979381-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MACS-PTUCKER-V" outcome="Error" timestamp="2009-06-29T17:00:30.3868370-07:00">
+        <Text>One of the background threads threw exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WhitStream.Data.Punctuation.ListPattern..ctor(ListPattern lp1, ListPattern lp2) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\Data\Data.cs:line 988
+   at WhitStream.Data.Punctuation.ListPattern.Coerce(Pattern p) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\Data\Data.cs:line 1038
+   at WhitStream.Data.MetaPunctuation.Include(Punctuation p) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\Data\Data.cs:line 1654
+   at WhitStream.QueryEngine.QueryOperators.OpJoin.SymmetricHash.JKeepRight(Punctuation p) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\QueryEngine\BinaryOp.cs:line 1242
+   at WhitStream.QueryEngine.BinaryOp.Iterate(GetDataItem gdi, ReleaseDataItem rdi) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\QueryEngine\Query.cs:line 1192
+   at WhitStream.QueryEngine.Scheduler.OpThread.ExecuteOnce(GetDataItem gdi, ReleaseDataItem rdi) in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\QueryEngine\Scheduler.cs:line 235
+   at WhitStream.QueryEngine.Scheduler.WSThreadPool.ThreadFunction() in c:\Users\ptucker.ADMIN\Documents\WhitStream\src\QueryEngine\Scheduler.cs:line 455
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecuteQuery" storage="c:\users\ptucker.admin\documents\whitstream\whitstreamunittest\bin\debug\whitstreamunittest.dll" id="51a29521-a14e-6b29-a86d-ba747b374e65">
+      <Execution id="a5c0f9bc-da40-499c-bafc-33df924ac352" />
+      <TestMethod codeBase="C:/Users/ptucker.ADMIN/Documents/WhitStream/WhitStreamUnitTest/bin/Debug/WhitStreamUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WhitStreamUnitTest.Queries, WhitStreamUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteQuery" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="51a29521-a14e-6b29-a86d-ba747b374e65" executionId="a5c0f9bc-da40-499c-bafc-33df924ac352" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a5c0f9bc-da40-499c-bafc-33df924ac352" testId="51a29521-a14e-6b29-a86d-ba747b374e65" testName="ExecuteQuery" computerName="MACS-PTUCKER-V" startTime="2009-06-29T16:57:57.7265725-07:00" endTime="2009-06-29T17:00:31.2609244-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5c0f9bc-da40-499c-bafc-33df924ac352">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

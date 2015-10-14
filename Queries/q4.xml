@@ -1,0 +1,5 @@
+<WhitStreamQueryPlan TOP="27">
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="25" ROWS="15" PUNCT="0" />
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="26" ROWS="12" PUNCT="0" />
+	<WhitStream.QueryEngine.QueryOperators.OpDifference ID="27" LEFTINPUT="25" RIGHTINPUT="26"  />
+</WhitStreamQueryPlan>

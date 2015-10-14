@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VSPerformanceSession Version="1.00">
+  <Options>
+    <Solution>C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStream.sln</Solution>
+    <CollectionMethod>Sampling</CollectionMethod>
+    <AllocationMethod>Allocation</AllocationMethod>
+    <LaunchRuntimeControl>true</LaunchRuntimeControl>
+    <AddReport>true</AddReport>
+    <ResourceBasedAnalysisSelected>true</ResourceBasedAnalysisSelected>
+    <ThreadBasedAnalysisSelected>true</ThreadBasedAnalysisSelected>
+    <UniqueReport>Timestamp</UniqueReport>
+    <SamplingMethod>Cycles</SamplingMethod>
+    <CycleCount>10000000</CycleCount>
+    <PageFaultCount>10</PageFaultCount>
+    <SysCallCount>10</SysCallCount>
+    <SamplingCounter Name="" ReloadValue="00000000000f4240" DisplayName="" />
+    <RelocateBinaries>false</RelocateBinaries>
+    <HardwareCounters EnableHWCounters="false" />
+    <EtwSettings />
+    <PdhSettings>
+      <PdhCountersEnabled>false</PdhCountersEnabled>
+      <PdhCountersRate>500</PdhCountersRate>
+      <PdhCounters>
+        <PdhCounter>\Memory\Pages/sec</PdhCounter>
+        <PdhCounter>\PhysicalDisk(_Total)\Avg. Disk Queue Length</PdhCounter>
+        <PdhCounter>\Processor(_Total)\% Processor Time</PdhCounter>
+      </PdhCounters>
+    </PdhSettings>
+  </Options>
+  <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+  <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+  <PreinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PreinstrumentEvent>
+  <PostinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PostinstrumentEvent>
+  <Binaries>
+    <TestBinary>
+      <Path>C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamUnitTest\obj\Debug\WhitStreamUnitTest.dll</Path>
+      <ArgumentTimestamp>01/01/0001 00:00:00</ArgumentTimestamp>
+      <Instrument>false</Instrument>
+      <Sample>true</Sample>
+      <ExternalWebsite>false</ExternalWebsite>
+      <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+      <LaunchProject>true</LaunchProject>
+      <OverrideProjectSettings>false</OverrideProjectSettings>
+      <LaunchMethod>Test</LaunchMethod>
+      <StartupDirectory>C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamUnitTest\bin\Debug\</StartupDirectory>
+      <Arguments />
+      <NetAppHost>IIS</NetAppHost>
+      <NetBrowser>InternetExplorer</NetBrowser>
+      <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+      <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{E7557DB9-F7C1-4DFC-B9FC-6FF47F250DDD}|WhitStreamUnitTest\WhitStreamUnitTest.csproj</ProjRef>
+      <ProjPath>C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamUnitTest\WhitStreamUnitTest.csproj</ProjPath>
+      <ProjName>ExecuteQuery</ProjName>
+      <TestId>{51a29521-a14e-6b29-a86d-ba747b374e65}</TestId>
+      <TestName>ExecuteQuery</TestName>
+    </TestBinary>
+    <ProjBinary>
+      <Path>C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.dll</Path>
+      <ArgumentTimestamp>01/01/0001 00:00:00</ArgumentTimestamp>
+      <Instrument>true</Instrument>
+      <Sample>true</Sample>
+      <ExternalWebsite>false</ExternalWebsite>
+      <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+      <LaunchProject>true</LaunchProject>
+      <OverrideProjectSettings>false</OverrideProjectSettings>
+      <LaunchMethod>Executable</LaunchMethod>
+      <StartupDirectory>C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\</StartupDirectory>
+      <Arguments />
+      <NetAppHost>IIS</NetAppHost>
+      <NetBrowser>InternetExplorer</NetBrowser>
+      <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+      <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{41BD6576-DB82-4EC1-A414-9101B223071A}|WhitStream.csproj</ProjRef>
+      <ProjPath>C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStream.csproj</ProjPath>
+      <ProjName>WhitStream</ProjName>
+    </ProjBinary>
+  </Binaries>
+  <Reports>
+    <Report>
+      <Path>C:\Users\ptucker.ADMIN\Documents\WhitStream\ExecuteQuery090701(3).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Users\ptucker.ADMIN\Documents\WhitStream\ExecuteQuery090701(4).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Users\ptucker.ADMIN\Documents\WhitStream\ExecuteQuery090701(5).vsp</Path>
+    </Report>
+  </Reports>
+  <Launches>
+    <TestBinary>
+      <Path>:TB:{51a29521-a14e-6b29-a86d-ba747b374e65}:ExecuteQuery:{E7557DB9-F7C1-4DFC-B9FC-6FF47F250DDD}|WhitStreamUnitTest\WhitStreamUnitTest.csproj</Path>
+    </TestBinary>
+  </Launches>
+  <RuntimeMarks>
+    <MarkName>Mark One</MarkName>
+    <MarkName>Mark Two</MarkName>
+    <MarkName>Mark Three</MarkName>
+    <MarkName>Mark Four</MarkName>
+    <MarkName>Mark Five</MarkName>
+    <MarkName>Mark Six</MarkName>
+    <MarkName>Mark Seven</MarkName>
+    <MarkName>Mark Eight</MarkName>
+    <MarkName>Mark Nine</MarkName>
+    <MarkName>Mark Ten</MarkName>
+  </RuntimeMarks>
+</VSPerformanceSession>

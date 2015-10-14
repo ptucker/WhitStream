@@ -1,0 +1,4 @@
+<WhitStreamQueryPlan TOP="32">
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="31" ROWS="50" PUNCT="-1" />
+	<WhitStream.QueryEngine.QueryOperators.OpGroupByCount ID="32" INPUT="31" ATTRS=""  />
+</WhitStreamQueryPlan>

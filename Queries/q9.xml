@@ -1,0 +1,4 @@
+<WhitStreamQueryPlan TOP="46">
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="45" ROWS="50" PUNCT="-1" />
+	<WhitStream.QueryEngine.QueryOperators.OpSelect ID="46" INPUT="45" EXPR="$1.1 &gt; 10 OR $1.1 &lt; 5" />
+</WhitStreamQueryPlan>

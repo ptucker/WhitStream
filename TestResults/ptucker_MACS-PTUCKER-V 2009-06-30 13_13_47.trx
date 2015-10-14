@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa981d68-c901-49bb-b109-91d42155e94e" name="ptucker@MACS-PTUCKER-V 2009-06-30 13:13:47" runUser="ADMIN\ptucker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0e641d25-d9ae-4874-8ea8-6e3f51b950e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="ptucker_MACS-PTUCKER-V 2009-06-30 13_13_47">
+      <DeploymentItem filename="C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-06-30T13:13:47.5418800-07:00" queuing="2009-06-30T13:13:48.6508800-07:00" start="2009-06-30T13:13:48.8258800-07:00" finish="2009-06-30T13:26:12.2208800-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecuteQuery" storage="c:\users\ptucker.admin\documents\whitstream\whitstreamunittest\bin\debug\whitstreamunittest.dll" id="51a29521-a14e-6b29-a86d-ba747b374e65">
+      <Execution id="16fa7cb5-1638-4755-8d90-22d133d61e58" />
+      <TestMethod codeBase="C:/Users/ptucker.ADMIN/Documents/WhitStream/WhitStreamUnitTest/bin/Debug/WhitStreamUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WhitStreamUnitTest.Queries, WhitStreamUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteQuery" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="51a29521-a14e-6b29-a86d-ba747b374e65" executionId="16fa7cb5-1638-4755-8d90-22d133d61e58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16fa7cb5-1638-4755-8d90-22d133d61e58" testId="51a29521-a14e-6b29-a86d-ba747b374e65" testName="ExecuteQuery" computerName="MACS-PTUCKER-V" startTime="2009-06-30T13:13:49.2488800-07:00" endTime="2009-06-30T13:26:12.1498800-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16fa7cb5-1638-4755-8d90-22d133d61e58">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

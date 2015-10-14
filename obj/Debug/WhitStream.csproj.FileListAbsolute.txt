@@ -1,0 +1,15 @@
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.XML
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.Admin.AdminForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.csproj.GenerateResource.Cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.pdb
+\\fs1\Homedrives\ptucker\Research\WhitStream\bin\Debug\WhitStream.dll
+\\fs1\Homedrives\ptucker\Research\WhitStream\bin\Debug\WhitStream.pdb
+\\fs1\Homedrives\ptucker\Research\WhitStream\bin\Debug\WhitStream.XML
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Debug\WhitStream.Admin.AdminForm.resources
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Debug\WhitStream.csproj.GenerateResource.Cache
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Debug\WhitStream.dll
+\\fs1\Homedrives\ptucker\Research\WhitStream\obj\Debug\WhitStream.pdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ecb854ca-aa19-4bdd-86de-ba94ebf0c856" name="ptucker@MACS-PTUCKER-V 2009-06-25 15:24:50" runUser="ADMIN\ptucker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0e641d25-d9ae-4874-8ea8-6e3f51b950e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="ptucker_MACS-PTUCKER-V 2009-06-25 15_24_50">
+      <DeploymentItem filename="C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-06-25T15:24:50.4369327-07:00" queuing="2009-06-25T15:24:50.7459636-07:00" start="2009-06-25T15:24:50.7939684-07:00" finish="2009-06-25T15:24:51.5390429-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testListPatternMatch" storage="c:\users\ptucker.admin\documents\whitstream\whitstreamunittest\bin\debug\whitstreamunittest.dll" id="6107f289-2997-dc8c-1cd3-66952ff33b95">
+      <Execution id="0e398d8b-13a2-4f47-8d49-5a872355a65a" />
+      <TestMethod codeBase="C:/Users/ptucker.ADMIN/Documents/WhitStream/WhitStreamUnitTest/bin/Debug/WhitStreamUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WhitStreamUnitTest.UtilTest, WhitStreamUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testListPatternMatch" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="unittests" id="601337ef-c43e-40ee-90ee-198920409c0c" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="6107f289-2997-dc8c-1cd3-66952ff33b95" name="testListPatternMatch" storage="c:\users\ptucker.admin\documents\whitstream\whitstreamunittest\bin\debug\whitstreamunittest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6107f289-2997-dc8c-1cd3-66952ff33b95" executionId="0e398d8b-13a2-4f47-8d49-5a872355a65a" testListId="601337ef-c43e-40ee-90ee-198920409c0c" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0e398d8b-13a2-4f47-8d49-5a872355a65a" testId="6107f289-2997-dc8c-1cd3-66952ff33b95" testName="testListPatternMatch" computerName="MACS-PTUCKER-V" duration="00:00:00.0215175" startTime="2009-06-25T15:24:50.8389729-07:00" endTime="2009-06-25T15:24:51.5050395-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="601337ef-c43e-40ee-90ee-198920409c0c" relativeResultsDirectory="0e398d8b-13a2-4f47-8d49-5a872355a65a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

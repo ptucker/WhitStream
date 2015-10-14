@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRoadDriver", "LinearRoadDriver.csproj", "{98D28AF4-A8AC-4A72-B4AE-2882152BDC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRoadPlan", "LinearRoadPlan.csproj", "{634FB5DD-88EB-4AE2-B9BF-E29E733DD34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoricalImporter", "HistoricalImporter.csproj", "{A38979AF-2D92-43A4-B521-A4B9869309F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D28AF4-A8AC-4A72-B4AE-2882152BDC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D28AF4-A8AC-4A72-B4AE-2882152BDC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D28AF4-A8AC-4A72-B4AE-2882152BDC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D28AF4-A8AC-4A72-B4AE-2882152BDC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634FB5DD-88EB-4AE2-B9BF-E29E733DD34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634FB5DD-88EB-4AE2-B9BF-E29E733DD34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634FB5DD-88EB-4AE2-B9BF-E29E733DD34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634FB5DD-88EB-4AE2-B9BF-E29E733DD34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38979AF-2D92-43A4-B521-A4B9869309F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38979AF-2D92-43A4-B521-A4B9869309F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38979AF-2D92-43A4-B521-A4B9869309F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38979AF-2D92-43A4-B521-A4B9869309F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
