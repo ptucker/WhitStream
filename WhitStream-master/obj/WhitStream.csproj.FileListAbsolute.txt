@@ -1,0 +1,17 @@
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Debug\WhitStream.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Debug\WhitStream.XML
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Nodelegate Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Nodelegate Debug\WhitStream.XML
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Nodelegate Debug\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Nodelegate Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Release\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Release\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Nodelegate Release\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\bin\Nodelegate Release\WhitStream.XML
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Nodelegate Release\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\obj\Nodelegate Release\WhitStream.dll

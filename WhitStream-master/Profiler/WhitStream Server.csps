@@ -1,0 +1,48 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Solution id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/at.jku.ssw.ProfIt.Components/at.jku.ssw.ProfIt.Components%2C%20Version%3D1.0.1759.21575%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-3">WhitStream Server</name>
+<projects href="#ref-4"/>
+<startProject href="#ref-5"/>
+<rootPath id="ref-6">C:\Users\ptucker.ADMIN\Documents\WhitStream\Profiler</rootPath>
+</a1:Solution>
+<a2:ArrayList id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-7"/>
+<_size>1</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a1:Project id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/at.jku.ssw.ProfIt.Components/at.jku.ssw.ProfIt.Components%2C%20Version%3D1.0.1759.21575%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name href="#ref-3"/>
+<dir id="ref-8"></dir>
+<outputDirectory id="ref-9">bin/Profiled</outputDirectory>
+<startParameters xsi:null="1"/>
+<references href="#ref-10"/>
+<externalId xsi:null="1"/>
+<externalFileName xsi:null="1"/>
+<askForStartParameters>true</askForStartParameters>
+<workingDirectory href="#ref-8"/>
+<workingDir>Root</workingDir>
+<executeInOwnWindow>false</executeInOwnWindow>
+<outputType>WinExe</outputType>
+<solution href="#ref-1"/>
+<files href="#ref-11"/>
+</a1:Project>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<a2:ArrayList id="ref-10" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-12"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-11" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-13"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-12" SOAP-ENC:arrayType="xsd:anyType[16]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="xsd:anyType[16]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

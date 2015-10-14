@@ -1,0 +1,7 @@
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\bin\Release\LinearRoad.exe
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\bin\Release\LinearRoad.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\bin\Release\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\bin\Release\WhitStream.xml
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\obj\Release\LinearRoad.exe
+C:\Users\ptucker.ADMIN\Documents\WhitStream\LinearRoad\obj\Release\LinearRoad.pdb

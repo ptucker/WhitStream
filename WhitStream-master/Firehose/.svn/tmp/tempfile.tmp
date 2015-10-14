@@ -1,0 +1,207 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Net.Sockets;
+using System.Runtime.Serialization.Formatters.Binary;
+
+namespace Firehose
+{
+    delegate bool FirehoseStart();
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string stIP, stPort;
+            int cThread=1;
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Which IP address for the WhitStream server?");
+                Console.Write("\tPress enter for localhost: ");
+                stIP = Console.ReadLine();
+                if (stIP.Length == 0) stIP = "localhost";
+            }
+            else
+                stIP = args[0];
+
+            if (args.Length <= 1)
+            {
+                Console.WriteLine("Which port for the WhitStream server:");
+                Console.Write("\tPress enter for port {0}: ", WhitStream.Server.TCPServer.WHITSTREAM_PORT);
+                stPort = Console.ReadLine();
+                if (stPort.Length == 0) stPort = WhitStream.Server.TCPServer.WHITSTREAM_PORT.ToString();
+            }
+            else
+                stPort = args[1];
+
+            if (args.Length <= 2)
+            {
+                string stThread;
+                Console.WriteLine("How many Firehose threads:");
+                Console.Write("\tPress enter for only 1 thread: ");
+                stThread = Console.ReadLine();
+                if (stThread.Length == 0) stPort = "1";
+                cThread = Int32.Parse(stThread);
+            }
+            else
+                stPort = args[1];
+
+            Firehose[] rgf = new Firehose[cThread];
+            FirehoseStart[] rgfs = new FirehoseStart[cThread];
+
+            for (int iThread = 0; iThread < cThread; iThread++)
+            {
+                rgf[iThread] = new Firehose(stIP, Int32.Parse(stPort));
+                rgfs[iThread] = new FirehoseStart(rgf[iThread].Start);
+            }
+            for (int iThread = 0; iThread < cThread; iThread++)
+                rgfs[iThread].BeginInvoke(null, null);
+
+            Console.WriteLine("Generating data. Press any key to quit.");
+            Console.ReadKey(true);
+
+            for (int iThread = 0; iThread < cThread; iThread++)
+                rgf[iThread].Stop();
+
+        }
+    }
+
+    class Firehose
+    {
+        private string stIP;
+        private int nPort;
+        private bool produceData = true;
+        delegate void Generator(TcpClient tc);
+        IAsyncResult ar;
+
+        public Firehose(string IP, int port)
+        {
+            stIP = IP;
+            nPort = port;
+        }
+
+        public bool Start()
+        {
+            bool retry;
+            TcpClient tc = null;
+            do
+            {
+                retry = false;
+                try
+                {
+                    tc = new TcpClient(stIP, nPort);
+                }
+                catch (SocketException s)
+                {
+                    if (s.ErrorCode == (int)SocketError.ConnectionRefused)
+                    {
+                        Console.WriteLine("Server not listening. Try again (y or n)?");
+                        string resp = Console.ReadLine();
+                        if (resp[0] == 'y' || resp[0] == 'Y')
+                            retry = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Unexpected Failure: {0} ({1})", s.Message,
+                            ((s.InnerException != null) ? s.InnerException.Message : ""));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Unexpected Failure: {0} ({1})", ex.Message,
+                        ((ex.InnerException != null) ? ex.InnerException.Message : ""));
+                }
+            } while (retry == true);
+            if (tc != null)
+            {
+                Generator g = new Generator(GenerateData);
+
+                ar = g.BeginInvoke(tc, null, null);
+                return true;
+            }
+            else
+                return false;
+        }
+
+        public void Stop() {
+            produceData = false;
+            ar.AsyncWaitHandle.WaitOne();
+        }
+
+        private const int MAXDATA = 100;
+        private void GenerateData(TcpClient tc)
+        {
+            int iRow = 0;
+            WhitStream.Data.DataItem[] rgdi = new WhitStream.Data.DataItem[MAXDATA];
+            BinaryFormatter bf = new BinaryFormatter();
+            NetworkStream ns = tc.GetStream();
+
+            for (int i = 0; i < MAXDATA; i++)
+                rgdi[i] = new WhitStream.Data.DataItem(2, null);
+
+            int cData;
+            Random rnd = new Random();
+            while (produceData)
+            {
+                cData = rnd.Next(MAXDATA);
+                for (int i = 0; i < cData; i++)
+                {
+                    rgdi[i].Clear();
+                    rgdi[i].AddValue((int)((int)iRow / 7));
+                    rgdi[i].AddValue((int)iRow);
+                    rgdi[i].EOF = false;
+                }
+
+                for (int i = 0; i < cData; i++)
+                    bf.Serialize(ns, rgdi[i]);
+
+                //if (iPunct == 0 && ((int)iRow / 7) != ((int)(iRow + 1) / 7))
+                //{
+                //    //Let's add a punctuation
+                //    Punctuation p = new Punctuation(2);
+                //    p.AddValue(new Punctuation.LiteralPattern((int)(iRow / 7)));
+                //    p.AddValue(new Punctuation.WildcardPattern());
+                //    ldiBufferOut.Add(p);
+                //}
+
+                //if (iPunct == 1)
+                //{
+                //    if (iRow >= CPUNCTLISTSIZE && iRow % CPUNCTLISTSIZE == 0)
+                //    {
+                //        Punctuation p2 = new Punctuation(2);
+                //        p2.AddValue(new Punctuation.WildcardPattern());
+                //        Punctuation.LiteralPattern[] rglp = new Punctuation.LiteralPattern[CPUNCTLISTSIZE];
+                //        for (int iLit = 0; iLit < CPUNCTLISTSIZE; iLit++)
+                //            rglp[iLit] = new Punctuation.LiteralPattern((int)iRow - CPUNCTLISTSIZE + iLit);
+                //        p2.AddValue(new Punctuation.ListPattern(rglp));
+                //        ldiBufferOut.Add(p2);
+                //    }
+                //}
+
+                //if (iPunct == 2)
+                //{
+                //    if (iRow >= CPUNCTLISTSIZE && iRow % CPUNCTLISTSIZE == 0)
+                //    {
+                //        Punctuation p2 = new Punctuation(2);
+                //        p2.AddValue(new Punctuation.WildcardPattern());
+                //        int iMin = iRow - CPUNCTLISTSIZE + 1, iMax = iRow;
+                //        p2.AddValue(new Punctuation.RangePattern(iMin, iMax));
+                //        ldiBufferOut.Add(p2);
+                //    }
+                //}
+                iRow++;
+            }
+
+            WhitStream.Data.DataItem di = new WhitStream.Data.DataItem(2, null);
+            di.AddValue((int)((int)iRow / 7));
+            di.AddValue((int)iRow);
+            di.EOF = true;
+
+            bf.Serialize(ns, di);
+
+            ns.Flush();
+            System.Threading.Thread.Sleep(1000);
+            ns.Close();
+        }
+    }
+}

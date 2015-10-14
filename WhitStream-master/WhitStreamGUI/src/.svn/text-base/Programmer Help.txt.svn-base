@@ -1,0 +1,36 @@
+The Operators: (ImageListIndex#)
+	Unary
+		Select: Name, Predicate (13)
+		Project: Name, Attributes (12)
+		Duplicate Elimination: Name, Attributes (1)
+		GroupBy: Name, GroupBy Types, Attributes to Group On, Attributes to Type (2)
+		Sort: Name, Attributes to Sort On (14)
+	Binary
+		Join: Name, Predicate, Attributes (10)
+		Intersect: Name (9)
+		Union: Name (16)
+		Difference: Name (0)
+Streams:
+	Input Stream: Name, Ports List (8)
+	Output Stream: Name (11)
+	
+	
+	(0, "Difference.jpg");
+    (1, "DupElim.jpg");
+    (2, "GroupBy.jpg");
+    (3, "GroupByAvg.JPG");
+    (4, "GroupByCount.JPG");
+    (5, "GroupByMax.JPG");
+    (6, "GroupByMin.JPG");
+    (7, "GroupBySum.JPG");
+    (8, "InputStream.jpg");
+    (9, "Intersect.jpg");
+    (10, "Join.jpg");
+    (11, "OutputStream.jpg");
+    (12, "Project.jpg");
+    (13, "Select.jpg");
+    (14, "Sort.jpg");
+    (15, "Trash.jpg");
+    (16, "Union.jpg");
+    (17, "ZoomIn.jpg");
+    (18, "ZoomOut.jpg");

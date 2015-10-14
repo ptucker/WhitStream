@@ -1,0 +1,2 @@
+Round Robin (op/thread)0 Total Rows: 613253, Time: 00:06:29.2789240
+Average Time: 389.278

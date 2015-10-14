@@ -1,0 +1,10 @@
+<WhitStreamQueryPlan TOP="56">
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="49" ROWS="100000" PUNCT="-1" />
+	<WhitStream.QueryEngine.QueryOperators.OpSelect ID="50" INPUT="49" EXPR="$1.1 &gt; 4" />
+	<WhitStream.QueryEngine.QueryOperators.OpSelect ID="51" INPUT="50" EXPR="$1.2 &lt; 50" />
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="52" ROWS="150000" PUNCT="-1" />
+	<WhitStream.QueryEngine.QueryOperators.OpUnion ID="53" LEFTINPUT="51" RIGHTINPUT="52"  />
+	<WhitStream.QueryEngine.QueryOperators.OpProject ID="54" INPUT="53" ATTRS="1" />
+	<WhitStream.QueryEngine.QueryOperators.OpGenerate ID="55" ROWS="150000" PUNCT="-1" />
+	<WhitStream.QueryEngine.QueryOperators.OpJoinSymm ID="56" LEFTINPUT="54" RIGHTINPUT="55"  EXPR="$1.1 = $2.2" />
+</WhitStreamQueryPlan>

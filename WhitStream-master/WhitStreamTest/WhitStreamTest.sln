@@ -1,0 +1,6 @@
+﻿Microsoft Visual Studio Solution File, Format Version 9.00
+# SharpDevelop 2.0.0.9999
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhitStreamTest", "WhitStreamTest.csproj", "{546B585B-2534-4455-9722-1A50A321E067}"
+EndProject
+Global
+EndGlobal

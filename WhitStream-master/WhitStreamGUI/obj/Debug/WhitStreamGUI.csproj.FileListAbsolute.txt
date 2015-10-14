@@ -1,0 +1,17 @@
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\bin\Debug\WhitStreamGUI.exe
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\bin\Debug\WhitStreamGUI.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\bin\Debug\WhitStream.dll
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\bin\Debug\WhitStream.pdb
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\bin\Debug\WhitStream.xml
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.AboutForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.BuilderForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.EditOperatorForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.HelpBoxForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.OpeningScreen.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.OperatorsForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.Properties.Resources.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.ViewerForm.resources
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.csproj.GenerateResource.Cache
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.exe
+C:\Users\ptucker.ADMIN\Documents\WhitStream\WhitStreamGUI\obj\Debug\WhitStreamGUI.pdb
