@@ -1,0 +1,15 @@
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStreamUI.exe.config
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStreamUI.exe
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStreamUI.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStream.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStream.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\bin\Debug\WhitStream.xml
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.BuilderForm.resources
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.HelpBoxForm.resources
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.OperatorsForm.resources
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.Properties.Resources.resources
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.ViewerForm.resources
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.csproj.GenerateResource.Cache
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.exe
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUI\obj\Debug\WhitStreamUI.pdb

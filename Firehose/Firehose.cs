@@ -112,6 +112,13 @@ namespace Firehose
         delegate void Generator(TcpClient tc);
         IAsyncResult ar;
 
+            public int PowerHose() //returns random power levels from 9230kw per hour/60/60 to 15061kw per hour/60/60
+        {
+            Random r = new Random();
+            int rInt = r.Next(((9230/60)/60),((15061/60)/60));
+            return rInt; //for ints
+        }
+
         public Firehose(string IP, int port, bool punct, int i)
         {
             stIP = IP;
@@ -190,8 +197,11 @@ namespace Firehose
                 for (int i = 0; i < cData; i++)
                 {
                     rgdi[i].Clear();
-                    rgdi[i].AddValue((UInt64)((UInt64)iRow / 7));
-                    rgdi[i].AddValue((UInt64)iRow);
+                    //-------------------------------------------------------------------------->added power hose to give a reasonable guess to amount off power used max 15061kw to 9230kw perhour per person
+                    int num = PowerHose();
+                    rgdi[i].AddValue(num);
+                    //rgdi[i].AddValue((UInt64)((UInt64)iRow / 7));
+                    //rgdi[i].AddValue((UInt64)iRow);
                     rgdi[i].EOF = false;
                     iRow++;
                 }
