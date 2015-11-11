@@ -198,7 +198,7 @@ namespace Firehose
                 {
                     rgdi[i].Clear();
                     //-------------------------------------------------------------------------->added power hose to give a reasonable guess to amount off power used max 15061kw to 9230kw perhour per person
-                    int num = PowerHose();
+                    UInt64 num = (UInt64) PowerHose();
                     rgdi[i].AddValue(num);
                     //rgdi[i].AddValue((UInt64)((UInt64)iRow / 7));
                     //rgdi[i].AddValue((UInt64)iRow);
