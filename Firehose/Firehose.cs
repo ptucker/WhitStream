@@ -197,7 +197,7 @@ namespace Firehose
                 }
 
                 for (int i = 0; i < cData; i++)
-                    bf.Serialize(ns, rgdi[i]);
+                    //bf.Serialize(ns, rgdi[i]);
 
                 if (fPunct && iRow - iRowStart > 0)
                 {
