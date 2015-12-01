@@ -1,8 +1,0 @@
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\bin\Debug\WhitStreamTest.exe
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\bin\Debug\WhitStreamTest.pdb
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\bin\Debug\WhitStream.dll
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\bin\Debug\WhitStream.pdb
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\bin\Debug\WhitStream.xml
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\obj\Debug\WhitStreamTest.csprojResolveAssemblyReference.cache
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\obj\Debug\WhitStreamTest.exe
-C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamTest\obj\Debug\WhitStreamTest.pdb

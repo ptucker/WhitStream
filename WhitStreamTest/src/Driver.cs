@@ -384,6 +384,4 @@ namespace WhitStreamTest
 		}
 		#endregion
 	}
-
-
 }
