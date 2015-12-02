@@ -1,0 +1,9 @@
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\WhitStreamUnitTest.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\WhitStreamUnitTest.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\WhitStream.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\WhitStream.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\bin\Debug\WhitStream.xml
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\obj\Debug\WhitStreamUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\obj\Debug\WhitStreamUnitTest.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\WhitStreamUnitTest\obj\Debug\WhitStreamUnitTest.pdb

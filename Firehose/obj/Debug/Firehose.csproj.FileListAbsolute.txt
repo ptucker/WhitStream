@@ -1,0 +1,8 @@
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\bin\Debug\Firehose.exe
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\bin\Debug\Firehose.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\bin\Debug\WhitStream.dll
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\bin\Debug\WhitStream.pdb
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\bin\Debug\WhitStream.xml
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\obj\Debug\Firehose.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\obj\Debug\Firehose.exe
+C:\Users\Kyle\Documents\GitHub\WhitStream\Firehose\obj\Debug\Firehose.pdb
